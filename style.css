@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  background-color: white;
 }
 
 .navbar-left {
@@ -15,6 +15,16 @@
 
 .navbar-right {
   margin-right: 30px;
+}
+
+.navbar-icon {
+  margin: 0 15px;
+}
+
+.sign-in-btn {
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
 }
 
 .grid {
