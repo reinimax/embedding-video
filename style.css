@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* General */
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgb(3, 3, 3);
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+small {
+  color: rgb(96, 96, 96);
+}
+
+img {
+  vertical-align: middle;
+}
+
 /* Navbar */
 
 .navbar {
@@ -33,7 +55,6 @@
 
 .grid {
   margin: 70px auto 0;
-  background-color: grey;
   width: 75%;
   height: 100%;
   display: grid;
@@ -55,9 +76,8 @@
 
 /* Main Elements */
 
-.main {
+main {
   grid-area: main;
-  background-color: red;
   padding: 24px 24px 0;
   display: flex;
   flex-direction: column;
@@ -88,6 +108,31 @@ iframe {
     width: 784px;
     height: 441px;
   }
+}
+
+header {
+  margin-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: solid 0.5px rgb(180, 180, 180);
+}
+
+.icongroup {
+  float: right;
+}
+
+.icongroup img {
+  opacity: 40%;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+
+.icongroup .lower-opacity {
+  opacity: 70%;
+}
+
+.icongroup span {
+  margin: 10px;
+  color: rgb(63, 63, 63);
 }
 
 /* Comments */
