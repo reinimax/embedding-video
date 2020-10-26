@@ -141,6 +141,8 @@ iframe {
 }
 
 .icongroup img {
+  position: relative;
+  z-index: -1;
   opacity: 40%;
   margin-right: 10px;
   vertical-align: baseline;
