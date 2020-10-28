@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--Navbar-->
     <nav class="navbar">
       <div class="navbar-left">
         <img
@@ -53,7 +54,9 @@
         <button class="sign-in-btn">Sign in</button>
       </div>
     </nav>
+
     <div class="grid">
+      <!--Main-->
       <main>
         <iframe
           src="https://www.youtube-nocookie.com/embed/mENDYhfxH-o"
@@ -126,9 +129,164 @@
           </section>
         </div>
       </main>
+
+      <!--Comments-->
       <div class="comments">
-        <div>single comment</div>
+        <header class="comment-section-header">
+          <h1>41 Comments</h1>
+          <span>
+            <img src="assets/icons/sort.svg" height="16px" alt="Sort by" />
+            SORT BY
+          </span>
+        </header>
+
+        <div class="add-comment-form">
+          <img src="/assets/icons/avatar.svg" alt="Your avatar" height="50px" />
+          <form>
+            <input
+              type="text"
+              placeholder="Add a public comment..."
+              class="border-bottom"
+            />
+          </form>
+        </div>
+
+        <section class="single-comment">
+          <div class="comment-flex-col-1">
+            <a href="#">
+              <img
+                src="/assets/icons/avatar1.jpg"
+                alt="Avatar"
+                height="50px"
+                width="50px"
+                class="avatar-comments"
+              />
+            </a>
+          </div>
+
+          <div class="comment-flex-col-2">
+            <header>
+              <a href="#">
+                <h1>The Cat</h1>
+                <time><small>3 years ago</small></time>
+              </a>
+            </header>
+
+            <p>Great video!</p>
+
+            <footer class="icongroup">
+              <span>
+                <img
+                  src="assets/icons/thumbs-up.svg"
+                  height="16px"
+                  alt="Like"
+                />15
+              </span>
+              <span>
+                <img
+                  src="assets/icons/thumbs-down.svg"
+                  height="16px"
+                  alt="Dislike"
+                />1
+              </span>
+              <a href="#" class="reply">reply</a>
+            </footer>
+          </div>
+        </section>
+
+        <section class="single-comment">
+          <div class="comment-flex-col-1">
+            <a href="#">
+              <img
+                src="/assets/icons/avatar2.png"
+                alt="Avatar"
+                height="50px"
+                width="50px"
+                class="avatar-comments"
+              />
+            </a>
+          </div>
+
+          <div class="comment-flex-col-2">
+            <header>
+              <a href="#">
+                <h1>The Coffee Addict</h1>
+                <time><small>1 year ago</small></time>
+              </a>
+            </header>
+
+            <p>Help! I'm lost! And where's my coffee?</p>
+
+            <footer class="icongroup">
+              <span>
+                <img
+                  src="assets/icons/thumbs-up.svg"
+                  height="16px"
+                  alt="Like"
+                />23
+              </span>
+              <span>
+                <img
+                  src="assets/icons/thumbs-down.svg"
+                  height="16px"
+                  alt="Dislike"
+                />14
+              </span>
+              <a href="#" class="reply">reply</a>
+            </footer>
+          </div>
+        </section>
+
+        <section class="single-comment">
+          <div class="comment-flex-col-1">
+            <a href="#">
+              <img
+                src="/assets/icons/avatar3.jpg"
+                alt="Avatar"
+                height="50px"
+                width="50px"
+                class="avatar-comments"
+              />
+            </a>
+          </div>
+
+          <div class="comment-flex-col-2">
+            <header>
+              <a href="#">
+                <h1>The Dog</h1>
+                <time><small>5 years ago</small></time>
+              </a>
+            </header>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <footer class="icongroup">
+              <span>
+                <img
+                  src="assets/icons/thumbs-up.svg"
+                  height="16px"
+                  alt="Like"
+                />3
+              </span>
+              <span>
+                <img
+                  src="assets/icons/thumbs-down.svg"
+                  height="16px"
+                  alt="Dislike"
+                />145
+              </span>
+              <a href="#" class="reply">reply</a>
+            </footer>
+          </div>
+        </section>
       </div>
+
+      <!--Sidebar-->
       <aside>
         <div>
           <header class="aside-header border-bottom">
