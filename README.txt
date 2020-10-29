@@ -1,6 +1,6 @@
 This project is about embedding a youtube-video in a page and styling it to look roughly similar to youtube.
 
-Now the project is mainly finished. Only some tweaks and polish to be done.
+I call the project finished by now. Of course still some things could be done, especially regarding the layout and responsive behavior. But it's close enough for me to call it done.
 
 I learned a lot doing this project.
 Prior to this, I very often assigned id's to an element and styled it via the id. This is not optimal because id's have high specificity and relying heavily on them therefore limits your options to overwrite styles.
