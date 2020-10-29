@@ -427,9 +427,13 @@ input[type="range"]::-moz-range-thumb {
 
 /* Sidebar Content*/
 
-.video-card {
+.video-card a {
   display: flex;
   margin: 7px 0;
+}
+
+.video-card a:hover .sidebar-info-icon {
+  display: block;
 }
 
 .video-card img {
@@ -438,6 +442,7 @@ input[type="range"]::-moz-range-thumb {
 
 .video-info {
   margin-left: 10px;
+  max-width: 250px;
 }
 
 .video-info * {
@@ -448,4 +453,13 @@ input[type="range"]::-moz-range-thumb {
   margin-bottom: 0;
   font-size: 14px;
   font-weight: bold;
+}
+
+.sidebar-info-icon {
+  float: right;
+  position: relative;
+  z-index: -1;
+  opacity: 60%;
+  margin-left: 30px;
+  display: none;
 }
